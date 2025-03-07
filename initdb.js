@@ -141,7 +141,7 @@ const dummyMeals = [
     creator_email: 'franzhuber@example.com',
   },
   {
-    title: 'Fresh Tomato Salad',
+    title: 'Fresh Tomato Salad', 
     slug: 'fresh-tomato-salad',
     image: 'tomato-salad.jpg',
     summary:
