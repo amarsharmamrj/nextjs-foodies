@@ -7,7 +7,7 @@ import classes from './main-header.module.css';
 import NavLink from './nav-link'; 
  
 export default function MainHeader() {
-  return (
+  return ( 
     <>
       <MainHeaderBackground />
       <header className={classes.header}>
