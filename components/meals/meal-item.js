@@ -7,7 +7,7 @@ export default function MealItem({ title, slug, image, summary, creator }) {
   return (
     <article className={classes.meal}>
       <header>
-        <div className={classes.image}>
+        <div className={classes.image}> 
           <Image 
             src={`https://maxschwarzmueller-nextjs-demo-users-image.s3.amazonaws.com/${image}`}
             alt={title}
