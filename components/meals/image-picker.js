@@ -10,7 +10,7 @@ export default function ImagePicker({ label, name }) {
   const imageInput = useRef();
   
   function handlePickClick() {
-    imageInput.current.click();
+    imageInput.current.click(); 
   }
 
   function handleImageChange(event) {
